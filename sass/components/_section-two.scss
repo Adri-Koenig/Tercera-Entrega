@@ -1,0 +1,53 @@
+.two {
+    grid-area: section-two;
+    grid-row: 3;
+    grid-column: 1;
+
+    .first {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding: auto;
+
+        .img1 {
+            justify-content: flex-end;
+            height: 500px;
+            margin-left: 3%;
+            @extend %img-index;
+        }
+
+        .p1 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: end;
+            letter-spacing: 1px;
+        }
+    }
+
+
+    .second {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        padding: auto;
+
+        .img2 {
+            height: 300px;
+            margin-right: 3%;
+            @extend %img-index;
+        }
+
+        .p2 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: start;
+            letter-spacing: 1px;
+        }
+    }
+
+}

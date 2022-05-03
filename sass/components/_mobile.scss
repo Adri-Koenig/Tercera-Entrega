@@ -1,0 +1,194 @@
+@media (max-width: 768px) {
+    body {
+        header {
+            font-size: 150%;
+            height: 7rem;
+            background-image: url(../Img/Picture/f2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            .logo {
+                .helm {
+                    display: none;
+                }
+
+                .title {
+                    font-size: 1.4em;
+                    justify-items: center;
+                    text-align: center;
+                }
+            }
+
+            nav {
+                .dropdown {
+                    display: block;
+                    margin-right: 1em;
+
+                    .dropdown-menu {
+                        font-size: 2rem;
+                        border: solid 2px white;
+                        border-radius: 5%;
+                        text-align: center;
+                        background-image: url(../Img/Picture/fondo1.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+
+                        .dropdown-item {
+                            font-size: 1em;
+                            font-family: 'Times New Roman', Times, serif;
+                            text-decoration: none;
+                            color: cyan;
+                            text-shadow: blue 2px 1px;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+
+                ul {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /* ---------------------------------- Index --------------------------------- */
+    .title-enjoy {
+        position: absolute;
+        z-index: 1;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        color: cyan;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+
+        .first {
+            display: flex;
+            flex-direction: column;
+
+            .img1 {
+                width: 80%;
+                height: 25rem;
+                margin: 5% 0;
+            }
+
+            .p1 {
+                text-align: center;
+            }
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+
+            .img2 {
+                width: 80%;
+                height: 25rem;
+                margin: 5% 0;
+            }
+
+            .p2 {
+                text-align: center;
+            }
+        }
+    }
+
+    /* --------------------------------- Equipo --------------------------------- */
+
+    .container-team {
+        display: flex;
+        flex-direction: column;
+
+        #equipo {
+            display: flex;
+            row-gap: 10px;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+
+            .card {
+                width: 90%;
+
+                img {
+                    width: 100%;
+                }
+
+                .card-text {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    /* ---------------------------------- Viaje --------------------------------- */
+    .container-viaje {
+        display: flex;
+        flex-direction: column;
+
+        #VIAJE {
+            .div-travel {
+                .nav-travel {
+                    flex-direction: column;
+                    height: 12em;
+                    width: 80%;
+                    border: 7px solid white;
+                }
+            }
+        }
+    }
+
+    /* ------------------------------- Información ------------------------------ */
+    .container-info {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+
+        section {
+            display: flex;
+            flex-direction: column;
+
+            .artic-a,
+            .artic-b,
+            .artic-c,
+            .artic-d,
+            .artic-e,
+            .artic-f {
+                margin: 2% 5%;
+                padding: 5%;
+            }
+        }
+    }
+
+    /* -------------------------------- Contacto -------------------------------- */
+    .container-contacto {
+        footer {
+            display: none;
+        }
+
+        #contacto {
+            .picture {
+                display: none;
+            }
+
+            nav {
+                form {
+                    padding: 0%;
+                }
+            }
+        }
+    }
+
+    /* --------------------------------- Footer --------------------------------- */
+
+    footer {
+        .helm {
+            display: none;
+        }
+    }
+}

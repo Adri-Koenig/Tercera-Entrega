@@ -1,0 +1,19 @@
+%img-index {
+    display: flex;
+    width: 30%;
+    border-radius: 50px;
+    border: $br-img;
+}
+
+%grid {
+    display: grid;
+    row-gap: 3%;
+    min-height: 100vh;
+}
+
+%flexbox {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Img/Picture/f2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    p {
+        font-family: 'Playfair Display', serif;
+        color: $letter-color;
+        text-shadow: $shadow;
+        font-size: 1.6em;
+    }
+    
+    h1, h2 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: $letter-color;
+        text-shadow: $shadow;
+        font-family: 'Lora', serif;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,4 @@
+@mixin border($value) {
+    border-radius: $value;
+    border: $br-img;
+}

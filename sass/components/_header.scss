@@ -1,0 +1,63 @@
+header {
+    grid-area: header;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Img/Picture/f2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: map-get($predeterminado, border-mg);
+    font-family: 'Bungee', cursive;
+
+    .logo {
+        display: flex;
+
+        .helm {
+            width: 10%;
+            margin-left: 10px;
+        }
+
+        .title {
+            font-size: map-get($predeterminado, font-size);
+            @extend %flexbox;
+            margin: 10px;
+            color: $letter-color;
+            text-shadow: $shadow;
+            letter-spacing: 3px;
+        }
+    }
+
+    nav {
+        grid-area: nav;
+        @extend %flexbox;
+
+        .dropdown {
+            display: none;
+        }
+
+        ul {
+            @extend %flexbox;
+            list-style: none;
+            margin: 0;
+
+            li {
+
+                a {
+                    font-size: 1em;
+                    margin: 0 10px;
+                    text-decoration: none;
+                    color: $letter-color;
+                    text-shadow: $shadow;
+                    letter-spacing: 3px;
+
+                    &:hover {
+                        color: blue;
+                        transition: all .5s;
+                    }
+                }
+            }
+        }
+    }
+}
